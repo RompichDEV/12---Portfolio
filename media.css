@@ -1,0 +1,64 @@
+@media only screen and (max-width: 1485px) {
+    .NavListBtn{
+        flex-direction: column;
+        margin-right: 0;
+    }
+    
+    .NavBody{
+        flex-direction: column;
+    }
+
+    .ContentTwoBoxCompetences{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .progress{
+        width: 400px;
+    }
+
+    .contentCV{
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .contentCV img{
+        width: 70%;
+        object-fit: cover;
+    }
+    
+    .ContactBox{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 450px){
+    .progress{
+        width: 300px;
+    }
+
+    ul {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        top: 30px;
+    }
+
+    .Reseaux img{
+        height: 420px;
+    }
+
+    .MyPortfolioContentBox{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .MyPortfolioContent{
+        width: 90%;
+    }
+  }
